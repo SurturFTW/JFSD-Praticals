@@ -1,5 +1,5 @@
 import java.util.HashSet;
-public class Practical1D {
+public class SetInterface {
     public static void main(String[] args) {
         HashSet<String> colors = new HashSet<>();
         HashSet<String> shapes = new HashSet<>();

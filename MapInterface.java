@@ -18,7 +18,7 @@ class Customer {
         return "Account_no = " + Account_no + ", Name = " + Name;
     }
 }
-public class Practical1E {
+public class MapInterface {
     public static void main(String[] args) {
     	
         HashMap<Integer, Customer> cMap = new HashMap<>();

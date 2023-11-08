@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+
 class employee{
 	int id;
 	String name;
@@ -10,7 +11,7 @@ class employee{
 		this.salary = salary;
 	}
 }
-public class Practical1C{
+public class ArrayList{
 	public static void main(String args[]) {
 		employee e1 = new employee(1, "Peter", 30000);
 		employee e2 = new employee(2, "John", 40000);
@@ -36,4 +37,6 @@ public class Practical1C{
 		while(itr1.hasNext()) {
 			employee emp1 = (employee)itr1.next();
 			System.out.println(emp1.id + " " + emp1.name + " " + emp1.salary);
-		} } }
+		} 
+	} 
+}

@@ -1,5 +1,5 @@
 import java.util.*;
-public class Practical1B{
+public class LinkedList{
 	public static void main(String args[]) {
 		LinkedList<String> al1 = new LinkedList<String>();
 		al1.add("Peter");
