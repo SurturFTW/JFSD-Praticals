@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Withdraw</title>
+</head>
+
+<body>
+	<h1>Withdraw Money</h1>
+	<form method="post" action="/withdraw">
+		<input type="text" name="amount" placeholder="Amount">
+		<button type="submit">Withdraw</button>
+	</form>
+	<p th:text="${error}" style="color: red;"></p>
+	<p th:text="${message}" style="color: green;"></p>
+	<br>
+	<a href="/home">Home</a>
+</body>
+
+</html>
