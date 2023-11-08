@@ -1,5 +1,5 @@
 import java.util.*;
-public class Practical2 {
+public class Converter {
 	public static void main(String[] args) {
 		Kmtm k = (float km) -> {
 			return km / 1.609f;
