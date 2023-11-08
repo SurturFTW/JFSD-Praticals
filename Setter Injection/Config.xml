@@ -3,9 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="address" class="Student_addresss.Address">
-		<property name="street" value="Old Highway Street" />
-		<property name="city" value="Badlapur" />
+	<bean id="address" class="practical5c.Address">
+		<property name="street" value="Savarkar Road" />
+		<property name="city" value="Dombivli" />
 		<property name="state" value="Maharashtra" />
 	</bean>
 	<bean id="student" class="practical5c.Student">
